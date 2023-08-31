@@ -3,7 +3,7 @@ import openai
 from discord.ext import commands
 
 # Set your OpenAI API key here
-openai.api_key = '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'
+openai.api_key = ''
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -74,4 +74,4 @@ async def on_message(message):
         response = get_bot_response(command, prompt_list)
         await message.channel.send(f'Redbox Ai: {response}')
 
-bot.run('ODkwOTk5MzMyNzcyMzkzMDIw.G2sMCD.ylEddAFoWaGvqgiBYZ0HfnbAfq3Y8JCLhdEjoY')
+bot.run('')
