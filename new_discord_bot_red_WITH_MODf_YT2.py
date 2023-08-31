@@ -4,7 +4,7 @@ import openai
 import youtube_dl
 
 # Set your OpenAI API key here
-openai.api_key = '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'
+openai.api_key = ''
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -146,4 +146,4 @@ def get_bot_response(message: str, pl: list[str]) -> str:
 
     return bot_response
 
-bot.run('ODkwOTk5MzMyNzcyMzkzMDIw.G2sMCD.ylEddAFoWaGvqgiBYZ0HfnbAfq3Y8JCLhdEjoY')
+bot.run('')
